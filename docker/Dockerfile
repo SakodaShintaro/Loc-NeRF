@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.6.2-base-ubuntu20.04
+FROM nvidia/cuda:11.7.0-base-ubuntu22.04
 
 # 言語の設定
 RUN apt-get update && apt-get install -y language-pack-ja-base language-pack-ja
