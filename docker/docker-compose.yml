@@ -1,6 +1,10 @@
 version: "3.9"
 services:
   container:
+    image:
+      loc-nerf-image
+    container_name:
+      loc-nerf-container
     build:
       context: .
       dockerfile: ./Dockerfile

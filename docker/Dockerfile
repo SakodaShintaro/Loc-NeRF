@@ -14,4 +14,4 @@ WORKDIR /root
 RUN git clone https://github.com/SakodaShintaro/dotfiles && ./dotfiles/setup.sh
 
 # 対象リポジトリをclone
-RUN git clone https://github.com/SakodaShintaro/Loc-NeRF -b develop
+RUN git clone https://github.com/SakodaShintaro/Loc-NeRF
